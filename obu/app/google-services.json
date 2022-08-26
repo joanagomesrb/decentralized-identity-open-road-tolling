@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "359525767004",
+    "firebase_url": "https://obuapp-6980b-default-rtdb.firebaseio.com",
+    "project_id": "obuapp-6980b",
+    "storage_bucket": "obuapp-6980b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359525767004:android:a82db905044ab638241399",
+        "android_client_info": {
+          "package_name": "com.example.myobu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359525767004-t72j4krhl9ssv5ktf2d2hv8mddeke2fb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnOdFtQeaw_jWnuRqJrt-8riufPfbWjQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359525767004-t72j4krhl9ssv5ktf2d2hv8mddeke2fb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

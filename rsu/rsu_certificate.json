@@ -1,0 +1,7 @@
+{
+"id" : 123 ,
+"tag": "TAG1" ,
+"type": "CL" ,
+"localization" : "Aveiro" ,
+"config": {"support_revocation": "True"}
+}

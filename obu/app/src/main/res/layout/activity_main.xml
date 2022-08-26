@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_gravity="center"
+    android:background="@color/blue1_background">
+
+
+    <Button
+        android:id="@+id/btn_start_travel"
+        android:layout_width="131dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="80dp"
+        android:onClick="onClick_startTravel"
+        android:text="@string/start_travel"
+        android:textSize="14sp"
+        android:background="@color/blue_disable_btn"
+        app:layout_constraintBottom_toTopOf="@+id/btn_check_payments"
+        app:layout_constraintEnd_toStartOf="@+id/btn_stop_travel"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_create_wallet"
+        android:layout_width="131dp"
+        android:layout_height="59dp"
+        android:onClick="onClick_createWallet"
+        android:text="@string/create_wallet"
+        android:background="@color/blue_enable_btn"
+        app:layout_constraintBottom_toTopOf="@+id/btn_check_payments"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.429" />
+
+    <Button
+        android:id="@+id/btn_check_payments"
+        android:layout_width="290dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="236dp"
+        android:onClick="onClick_getPayments"
+        android:text="@string/check_payments"
+        android:background="@color/blue_disable_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_stop_travel"
+        android:layout_width="131dp"
+        android:layout_height="59dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="80dp"
+        android:onClick="onClick_stopTravel"
+        android:text="@string/stop_travel"
+        android:textSize="14sp"
+        android:background="@color/blue_disable_btn"
+        app:layout_constraintBottom_toTopOf="@+id/btn_check_payments"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btn_start_travel" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

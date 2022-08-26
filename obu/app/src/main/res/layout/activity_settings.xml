@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings">
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btn_manage_iota_wallet"
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_horizontal"
+        android:onClick="onClick_manageIOTAWallet"
+        android:text="@string/manage_iota_wallet"
+        android:textAlignment="center"
+        app:bootstrapBrand="success"
+        app:bootstrapSize="lg"
+        app:buttonMode="regular"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:roundedCorners="true"
+        app:showOutline="false"
+        android:layout_centerInParent="true" />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btn_account"
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:onClick="onClick_accountSettings"
+        android:text="@string/account_settings"
+        android:textAlignment="center"
+        app:bootstrapBrand="success"
+        app:bootstrapSize="lg"
+        app:buttonMode="regular"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_manage_iota_wallet"
+        app:layout_constraintVertical_bias="0.179"
+        app:roundedCorners="true"
+        app:showOutline="false" />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btn_manage_id_wallet"
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:onClick="onClick_manageIdWallet"
+        android:text="@string/manage_identity_wallet"
+        android:textAlignment="center"
+        app:bootstrapBrand="success"
+        app:bootstrapSize="lg"
+        app:buttonMode="regular"
+        app:layout_constraintBottom_toTopOf="@+id/btn_manage_iota_wallet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.82"
+        app:roundedCorners="true"
+        app:showOutline="false" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

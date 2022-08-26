@@ -1,0 +1,10 @@
+{ "name" : "certificate",
+  "version" : "0.1",
+  "config": {"support_revocation": "True"} ,
+  "attributes" : {
+    "id" : "321" ,
+    "license_plate": "1234ab" ,
+    "class": "b" ,
+    "registration_year" : "2000" ,
+    "registration_month" : "1"
+}}
